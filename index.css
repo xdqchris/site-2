@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(199, 170, 4);
+			font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-weight: 400;
+			color: rgb(0, 0, 0);
+}
+
+#geral {
+    position: center;
+    margin: 15% auto;
+    width: 38%;
+    /*border:1px solid red;*/
+}
+
+#foto {
+    display: block;
+    float: left;
+    width: 41%;
+    min-width: 180px;
+    
+}
+#foto img{
+    width: 100%;
+        border-radius: 50%;
+
+}
+
+#info {
+    display: block;
+    float: left;
+    width: 52%;
+    min-width: 180px;
+    padding-left: 6%;
+    padding-top: 6%;
+    /*border:1px solid blue;*/
+}
+
+#social {
+    display: block;
+    float: left;
+    width: 52%;
+    min-width: 120px;
+    padding-left: 6%;
+    padding-top: 10%;
+    /*border:1px solid green;*/
+}
+
+h1 {
+    text-transform: block;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1em;
+    color: #0f0f0f;
+}
+h2 a {
+    display: block;
+    margin-top: 5px;
+    color: #000000;
+}
+p.social img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+footer p {
+    margin: 1px;
+   
+   }
+footer {
+    display: block;
+    float: left;
+    width: 60%;
+    min-width: 180px;
+    padding-left: 40%;
+    padding-top: 6%;
+    /*border:1px solid green;*/
+
+}
